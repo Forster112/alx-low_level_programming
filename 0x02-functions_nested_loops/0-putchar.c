@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - program to print _putchar
+ * _putchar - program that prints _putchar
+ * @c: The character to print
  *
  * Return: Always 0 (success)
  */
-int main(void)
+
+int _putchar(char c)
 {
-	printf("_putchar\n");
-	return (0);
+	return (write(1, &c, 1));
 }
