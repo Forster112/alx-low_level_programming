@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * _putchar - program that prints _putchar
- * @c: The character to print
+ * main - program that prints _putchar
  *
  * Return: Always 0 (success)
  */
 
-int _putchar(char c)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
