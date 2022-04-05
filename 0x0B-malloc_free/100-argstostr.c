@@ -11,7 +11,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *aout;
-	char c, i, j, ia;
+	int c, i, j, ia;
 
 	if (ac == 0)
 		return (NULL);
